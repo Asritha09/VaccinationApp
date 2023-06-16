@@ -1,0 +1,91 @@
+.LoginPageLogo{
+    width: 200px;
+}
+.CentralPart1{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid rgb(245, 242, 242);
+    align-items: center;
+    padding: 20px;
+    margin: 10%;
+    margin-top: 20px;
+    box-shadow: inset 2px 4px 10px rgba(0,0,0,0.5);
+}
+.interviewImage{
+    max-width: 700px;
+    height: 400px;
+    /* margin-top: 5%;
+    margin-left: 5%; */
+}
+
+.LoginSection{
+    border:1px solid #eeeeee;
+    padding:0.5% 3% 3% 3%;
+    background-color: #eeefff;
+    border-radius: 10px;
+}
+.LoginHeading1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.LoginHeading2{
+    font-size: 15px;
+    color: #555555;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.Inputs{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding:10px 5px 10px 15px;
+    width:75%;
+    margin-left:1%;
+    border-color: white;
+}
+.Email,.Password{
+ font-size: 16px;
+ margin-bottom: 10px;
+}
+.InputsWithIcons{
+    border: 3px solid white;
+    background-color: white;
+    padding-left:15px;
+    border-radius: 10px;
+    display: flex;
+}
+::placeholder { 
+    color: #cccccc;
+   
+  }
+input:focus{
+    outline: none;
+}
+.InputIcon{
+    font-size: 20px;
+    color: #2f875a;
+    margin-top: 8px;
+}
+.LoginButton{
+     border:1px solid #2f875a;
+     padding:5px 15px 5px 15px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+     background-color: #2f875a;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+}
+
+.ForgetPassword{
+    font-size: 13px;
+    cursor: pointer;
+    color:#2f875a ;
+}
+.NoAccount{
+    font-size: 13px;
+} 
+
+

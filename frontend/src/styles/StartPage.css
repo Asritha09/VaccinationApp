@@ -1,0 +1,46 @@
+
+  
+  .StartPageHeading {
+    background-color: #222;
+    color: white;
+    padding: 19px 19px 19px 19px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+ 
+  
+
+  
+  .CenterPart {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .LoginButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;   
+    color: white;
+   
+    margin-bottom: 20px;
+   border: 1px solid #ccc;
+   box-shadow: inset 2px 4px 10px rgba(0,0,0,0.5);
+    
+  }
+  .LoginButton{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 15px;
+  }
+  
+ .SelectRole{
+    font-size: 20px;
+    font-weight: bold;
+ }
