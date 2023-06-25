@@ -50,7 +50,8 @@ export default function SignUp() {
                 openPopUpMessage("Incorrect password")
             }
             else if(res.data.message==="SignUp successfully"){
-                openPopUpMessage("SignUp successfully")
+                //openPopUpMessage("SignUp successfully")
+                navigate('/homepage')
             }
             else if(res.data.message==="Error occured"){
                 openPopUpMessage("Error occured")
